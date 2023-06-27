@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#313131">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:paddingBottom="8px"
+            android:paddingTop="8px"
+            android:text="Time"
+            android:textColor="@color/yellow"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="8px"
+            android:paddingTop="8px"
+            android:gravity="center"
+            android:text="P1"
+            android:textColor="@color/yellow"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="8px"
+            android:paddingTop="8px"
+            android:gravity="center"
+            android:text="P2"
+            android:textColor="@color/yellow"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="8px"
+            android:paddingTop="8px"
+            android:gravity="center"
+            android:text="P3"
+            android:textColor="@color/yellow"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="8px"
+            android:paddingTop="8px"
+            android:gravity="center"
+            android:text="P4"
+            android:textColor="@color/yellow"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="8px"
+            android:paddingTop="8px"
+            android:gravity="center"
+            android:text="P5"
+            android:textColor="@color/yellow"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="8px"
+            android:paddingTop="8px"
+            android:gravity="center"
+            android:text="P6"
+            android:textColor="@color/yellow"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="8px"
+            android:paddingTop="8px"
+            android:gravity="center"
+            android:text="T."
+            android:textColor="@color/yellow"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="8px"
+            android:paddingTop="8px"
+            android:gravity="center"
+            android:text="H."
+            android:textColor="@color/yellow"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:background="#FFFFFF"/>
+
+    <ListView
+        android:id="@+id/listView1"
+        android:divider="#626262"
+        android:dividerHeight="4px"
+        android:listSelector="#626262"
+        android:textColor="#FFF799"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+
+
+</LinearLayout>

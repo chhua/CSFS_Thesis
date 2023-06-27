@@ -1,0 +1,48 @@
+<resources>
+
+    <string name="app_name">石膏裹覆訓練App</string>
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="label_data">Data:</string>
+    <string name="label_device_address">Device address:</string>
+    <string name="label_state">State:</string>
+    <string name="no_data">No data</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="title_devices">BLE Device Scan</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+
+    <!-- Menu items -->
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_stop">Stop</string>
+    <string name="action_settings">Action settings</string>
+
+    <string name="text_p1">P1 : </string>
+    <string name="text_p2">P2 : </string>
+    <string name="text_p3">P3 : </string>
+    <string name="text_p4">P4 : </string>
+    <string name="text_p5">P5 : </string>
+    <string name="text_p6">P6 : </string>
+    <string name="text_tempearutre">溫度 : </string>
+    <string name="text_humidity">溼度 : </string>
+    <string name="text_patient">病號 : </string>
+    <string name="text_name">姓名 : </string>
+    <string name="text_doctor">醫師 : </string>
+    <string name="text_age">年紀 : </string>
+    <string name="btn_connect">連 線</string>
+    <string name="btn_record">記 錄</string>
+    <string name="menu_about">關 於</string>
+    <string name="menu_open_bluetooth">啟 動 藍 芽</string>
+    <string name="menu_debug_mode">測 試 模 式</string>
+    <string name="menu_exit">離 開 系 統</string>
+    <string name="menu_app_version">BlUNO and APP Beta 1.0</string>
+    <string name="window_exit_yes">YES</string>
+    <string name="window_exit_no">NO</string>
+    <string name="app_exit">App Exit</string>
+    <string name="title_activity_log">LogActivity</string>
+
+</resources>
